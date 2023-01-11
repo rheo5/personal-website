@@ -1,4 +1,7 @@
-<h1>To do</h1>
-- [ ] add description
-- [ ] add pictures
+<h1>personal website</h1>
+
+## to-do
 - [ ] add resume
+- [ ] add descriptions
+- [ ] add pictures
+- [ ] add extra animations
