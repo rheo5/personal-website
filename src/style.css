@@ -1,0 +1,115 @@
+/*also consider kanit font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+h1 {
+    color: rgb(33, 20, 106);
+    font-family: "Montserrat";
+    font-size: 70px;
+    border: 5px;
+}
+
+h2 {
+    font-size: 35px;
+    color: rgb(102, 77, 185);
+}
+
+h3 {
+    font-size: 25px;
+}
+
+body {
+    background-color: white;
+    font-size: 20px;
+    color: rgb(10, 10, 93);
+    font-family: "Montserrat";
+    margin: 0;
+    margin-top: 30px;
+}
+
+img {
+    height: 300px;
+    border-radius: 10%;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Montserrat";
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    color: rgb(173, 147, 246);
+}
+
+a:link {
+    color: rgb(173, 147, 246);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(53, 12, 89);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+}
+
+#welcome {
+    background-color: rgb(187, 163, 255);
+    background-image: linear-gradient(rgb(187, 163, 255), white);
+}
+
+#about {
+    background-color: rgb(187, 163, 255);
+    background-image: linear-gradient(rgb(187, 163, 255), white);
+}
+
+#resume {
+    background-color: rgb(187, 163, 255);
+    background-image: linear-gradient(rgb(187, 163, 255), white);
+}
