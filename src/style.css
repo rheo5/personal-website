@@ -2,27 +2,80 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-h1 {
+.welcometext {
     color: rgb(33, 20, 106);
-    font-family: "Montserrat";
-    font-size: 70px;
-    border: 5px;
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100%;
+    margin-bottom: 5px;
+    margin-top:10px
 }
 
-h2 {
-    font-size: 35px;
+.aboutme {
+    font-size: 45px;
+    font-weight: 400;
     color: rgb(102, 77, 185);
+}
+
+.about-container {
+    display: flex;
+}
+
+.text-img-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.text-content {
+    width: 50%;
+}
+
+.header-description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.me-header {
+    text-align: left;
+    padding-left:30px;
+}
+
+.description {
+    width: 500px;
+    height: 60px; 
+    display: inline-block; 
+    overflow: hidden; 
+    text-wrap: normal;
+    padding-left:30px;
+    padding-right: 40px;
+    text-align: left;
+}
+
+.me {
+    margin-left: auto;
+    margin-right: auto;
+    width: 533px;
+    height: 400px;
 }
 
 h3 {
     font-size: 25px;
 }
 
+
+h2 {
+    font-size: 40px;
+}
+
 body {
     background-color: white;
     font-size: 20px;
-    color: rgb(10, 10, 93);
-    font-family: "Montserrat";
+    color: rgb(33, 20, 106);
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     margin-top: 30px;
 }
@@ -47,22 +100,28 @@ header {
     line-height: 50px;
     background-color: white;
     color: rgb(173, 147, 246);
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+nav ul li {
+    font-weight: 500;
+    margin-left: 60px; 
 }
 
 a:link {
-    color: rgb(173, 147, 246);
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
     color: rgb(53, 12, 89);
     background-color: transparent;
     text-decoration: none;
 }
 
+a:hover {
+    color: rgb(187, 163, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
 a:active {
-    color: pink;
     background-color: transparent;
     text-decoration: underline;
 }
@@ -97,6 +156,14 @@ footer {
     text-align: center;
     padding: 50px;
     background-color: white;
+}
+
+.icon {
+    margin-right: 40px;
+}
+
+.highlight {
+    color:rgb(33, 20, 106);
 }
 
 #welcome {
