@@ -3,3 +3,4 @@
 ## to-do
 - [ ] add descriptions
 - [ ] add js
+- [ ] optimize for mobile screen
