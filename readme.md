@@ -4,3 +4,4 @@
 - [ ] add descriptions
 - [ ] add js
 - [ ] optimize for mobile screen
+- [ ] add projects + experiences
