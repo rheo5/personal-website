@@ -2,20 +2,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
+.nav-list {
+    margin: 0 2%;
+    font-weight: 500;
+}
+
 .welcometext {
     color: rgb(33, 20, 106);
     font-family: "Open Sans";
     font-weight: 800;
-    font-size: 100px;
+    font-size: 500%;
     text-transform: uppercase;
     text-align: center;
     line-height: 100%;
-    margin-bottom: 5px;
-    margin-top:10px
+    margin-bottom: 5%;
+    margin-top: 5.5%;
 }
 
 .aboutme {
-    font-size: 45px;
+    font-size: 225%;
     font-weight: 400;
     color: rgb(102, 77, 185);
 }
@@ -27,43 +32,38 @@
 .text-img-container {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-end; 
+    justify-content: center;
 }
 
 .text-content {
-    width: 50%;
+    width: 40%;
 }
 
 .header-description-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 0%;
 }
 
 .me-header {
-    margin-top: 5px;
+    margin-top: 3%;
     text-align: left;
-    padding-left:30px;
     font-family: "Open Sans";
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 2%;
 }
 
 .description {
-    width: 500px;
-    display: inline-block; 
+    display: inline-block;
     text-wrap: break-word;
-    padding-left:30px;
-    padding-right: 70px;
     text-align: left;
-    padding-top: -15px; 
 }
 
-
 .me {
-    margin-left: auto;
-    margin-right: 50px; 
-    width: 533px;
+    margin-left: 7%;
+    margin-right: 5%;
+    width: auto;
     height: 400px;
 }
 
@@ -73,31 +73,30 @@
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 20%;
 }
 
 
 h2 {
-    font-size: 40px;
+    font-size: 200%;
 }
 
 body {
     background-color: white;
-    font-size: 20px;
+    font-size: 125%;
     color: rgb(33, 20, 106);
     font-family: 'Open Sans';
     margin: 0;
-    margin-top: 30px;
+
 }
 
 img {
-    height: 300px;
+    /* height: 300px; */
     border-radius: 10%;
 }
 
 html {
     scroll-behavior: smooth;
-    font-family: "Montserrat";
 }
 
 header {
@@ -106,17 +105,22 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 50px;
-    line-height: 50px;
+    height: 7.5%;
     background-color: white;
     color: rgb(173, 147, 246);
-    justify-content: flex-end;
-    padding-right: 50px;
+    padding-right: 1.5%;
 }
 
-nav ul li {
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-end;
+}
+
+h4 {
     font-weight: 500;
-    margin-left: 60px; 
 }
 
 a:link {
@@ -136,19 +140,6 @@ a:active {
     text-decoration: underline;
 }
 
-header * {
-    display: inline;
-    height: 50px;
-}
-
-header ul {
-    padding: 0;
-}
-
-header li {
-    margin-left: 20px;
-}
-
 section {
     height: 100vh;
     display: flex;
@@ -164,25 +155,82 @@ section {
 
 footer {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 3%;
     background-color: white;
-    margin-top: 0%;
-    padding-top: 0px;
 }
 
 .icon {
-    margin-right: 40px;
+    margin: 0 1.5%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .highlight {
-    color:rgb(33, 20, 106);
+    color: rgb(33, 20, 106);
 }
 
 #welcome {
     background-color: rgb(187, 163, 255);
     background-image: linear-gradient(rgb(187, 163, 255), white);
+
+    background-size: 100% auto;
 }
 
 #about {
     background-color: white;
+    margin-left: 7.5%;
+}
+
+@media screen and (max-width: 1200px) {
+    .text-img-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .me {
+        height: auto;
+        width: 80%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 10%;
+    }
+
+    #about {
+        background-color: white;
+        margin-left: 0%;
+        height: max-content;
+        padding: 5% 0;
+    }
+    .text-content {
+        width: 80%;
+    }
+
+    .me-header{
+        text-align: center;
+        margin: auto;
+    }
+    .description {
+        text-align: center;
+        padding-bottom: 10%;
+    }
+
+    .header-description-container {
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .welcometext {
+        font-size: 350%;
+    }
+    .aboutme {
+        font-size: 180%;
+    }
 }
