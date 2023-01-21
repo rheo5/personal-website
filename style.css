@@ -2,75 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-.nav-list {
-    margin: 0 2%;
-    font-weight: 500;
-}
-
-.welcometext {
-    color: rgb(33, 20, 106);
-    font-family: "Open Sans";
-    font-weight: 800;
-    font-size: 500%;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 100%;
-    margin-bottom: 5%;
-    margin-top: 5.5%;
-}
-
-.aboutme {
-    font-size: 225%;
-    font-weight: 400;
-    color: rgb(102, 77, 185);
-}
-
-.about-container {
-    display: flex;
-}
-
-.text-img-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.text-content {
-    width: 40%;
-}
-
-.header-description-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 0%;
-}
-
-.me-header {
-    margin-top: 3%;
-    text-align: left;
-    font-family: "Open Sans";
-    font-weight: 700;
-    margin-bottom: 2%;
-}
-
-.description {
-    display: inline-block;
-    text-wrap: break-word;
-    text-align: left;
-}
-
-.me {
-    margin-left: 7%;
-    margin-right: 5%;
-    width: auto;
-    height: 400px;
-}
-
-.note {
-    margin-top: 3%;
-    margin-bottom: 0.03%;
-}
 
 h3 {
     font-size: 20%;
@@ -159,6 +90,85 @@ footer {
     background-color: white;
 }
 
+.nav-list {
+    margin: 0 2%;
+    font-weight: 500;
+    color: rgb(53, 12, 89);
+}
+
+/* FIX ANIMATION OVER RIDING NAVIGATION */
+.welcometext {
+    color: rgb(33, 20, 106);
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-size: 500%;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100%;
+    margin-bottom: 5%;
+    margin-top: 5.5%;
+    /* animation: fadeIn 2s; */
+}
+
+.aboutme {
+    font-size: 225%;
+    font-weight: 400;
+    color: rgb(102, 77, 185);
+    /* animation: fadeIn 2s; */
+}
+
+/* @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+} */
+
+.about-container {
+    display: flex;
+}
+
+.text-img-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.text-content {
+    width: 40%;
+}
+
+.header-description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0%;
+}
+
+.me-header {
+    margin-top: 3%;
+    text-align: left;
+    font-family: "Open Sans";
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+.description {
+    display: inline-block;
+    overflow-wrap: break-word;
+    text-align: left;
+}
+
+.me {
+    margin-left: 7%;
+    margin-right: 6%;
+    width: auto;
+    height: 400px;
+}
+
+.note {
+    margin-top: 3%;
+    margin-bottom: 0.03%;
+}
+
 .icon {
     margin: 0 1.5%;
 }
@@ -166,7 +176,7 @@ footer {
 .icons {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center;  
     justify-content: center;
 }
 
@@ -185,6 +195,50 @@ footer {
     background-color: white;
     margin-left: 7.5%;
 }
+
+
+/* LOADER DOESNT WORK */
+
+/* :root {
+    --main-color: #ecf0f1;
+    --point-color: #555;
+    --size: 5px;
+} */
+
+/* .loader {
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center;  
+    z-index: 100000;
+}
+
+.loader__element {
+    border-radius: 100%;
+    border: var(--size) solid var(--point-color);
+    margin: calc(var(--size)*2);
+}
+
+.loader__element:nth-child(1) {
+    animation: preloader .6s ease-in-out alternate infinite;
+}
+.loader__element:nth-child(2) {
+    animation: preloader .6s ease-in-out alternate .2s infinite;
+}
+
+.loader__element:nth-child(3) {
+    animation: preloader .6s ease-in-out alternate .4s infinite;
+}
+  
+@keyframes preloader {
+  100% { transform: scale(2); }
+} */
 
 @media screen and (max-width: 1200px) {
     .text-img-container {
