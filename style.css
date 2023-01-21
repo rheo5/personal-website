@@ -128,7 +128,7 @@ footer {
 
 .text-img-container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 
@@ -155,10 +155,11 @@ footer {
     display: inline-block;
     overflow-wrap: break-word;
     text-align: left;
+    width: 90%;
 }
 
 .me {
-    margin-left: 7%;
+    margin-left: 2%;
     margin-right: 6%;
     width: auto;
     height: 400px;
@@ -273,6 +274,7 @@ footer {
     .description {
         text-align: center;
         padding-bottom: 10%;
+        width: auto;
     }
 
     .header-description-container {
@@ -284,7 +286,14 @@ footer {
     .welcometext {
         font-size: 350%;
     }
+
+    .description {
+        font-size: 90%;
+    }
+
     .aboutme {
         font-size: 180%;
+        margin-left:2%;
+        margin-right:2%
     }
 }
