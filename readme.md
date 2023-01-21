@@ -3,5 +3,5 @@
 ## to-do
 - [ ] add descriptions
 - [ ] add js
-- [ ] optimize for mobile screen
+- [ ] add animations
 - [ ] add projects + experiences
